@@ -1,6 +1,6 @@
 module tb_adder_Nbit;
 
-    parameter N = 8;
+    parameter N = 4;
 
     // Testbench signals
     logic [N-1:0] A;         // 8-bit input A
