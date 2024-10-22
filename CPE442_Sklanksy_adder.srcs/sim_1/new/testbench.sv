@@ -1,6 +1,6 @@
 module tb_adder_Nbit;
 
-    parameter N = 4;
+    parameter N = 8;
 
     // Testbench signals
     logic [N-1:0] A;         // 8-bit input A
@@ -9,6 +9,7 @@ module tb_adder_Nbit;
     logic CO;              // Carry out
      logic [N:0] expected_sum;
      logic expected_CO;
+     int sumerrors, coerrors;
 
     // Instantiate the DUT
     Sklansky #(N) dut (
@@ -33,6 +34,8 @@ module tb_adder_Nbit;
 
                 // Check if the DUT output matches the expected values
                 if (SUM !== expected_sum[N-1:0] || CO !== expected_CO) begin
+                    if (SUM !== expected_sum[N-1:0]) begin sumerrors++; end
+                    if (CO !== expected_CO) begin coerrors++; end
                     $display("Error: A=%0d, B=%0d, SUM=%0d, CO=%b, Expected SUM=%0d, Expected CO=%b",
                              A, B, SUM, CO, expected_sum[N-1:0], expected_CO);
                 end else begin
@@ -40,6 +43,9 @@ module tb_adder_Nbit;
                 end
             end
         end
+        $display("Num Sum errors = %0d", sumerrors);
+        $display("Num carry errors = %0d", coerrors);
+
         $finish; // End the simulation
     end
 

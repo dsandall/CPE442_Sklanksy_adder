@@ -7,6 +7,7 @@ module ripple_carry_adder #(parameter WIDTH = 8) (
     output logic             Cout   // Carry-out
 );
 
+
     // Internal carry signals
     logic [WIDTH:0] carry;
 

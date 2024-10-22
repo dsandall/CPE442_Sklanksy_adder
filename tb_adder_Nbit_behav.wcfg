@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_adder_Nbit_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_Sklansky_sv_164423939 " />
+            <top_module name="glbl" />
+            <top_module name="tb_adder_Nbit" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="270.290 ns"></ZoomStartTime>
+      <ZoomEndTime time="281.943 ns"></ZoomEndTime>
+      <Cursor1Time time="279.616 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="129"></NameColumnWidth>
+      <ValueColumnWidth column_width="75"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/tb_adder_Nbit/A" type="array">
+      <obj_property name="ElementShortName">A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adder_Nbit/B" type="array">
+      <obj_property name="ElementShortName">B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adder_Nbit/SUM" type="array">
+      <obj_property name="ElementShortName">SUM[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SUM[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adder_Nbit/CO" type="logic">
+      <obj_property name="ElementShortName">CO</obj_property>
+      <obj_property name="ObjectShortName">CO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adder_Nbit/dut/outputs" type="array">
+      <obj_property name="ElementShortName">outputs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">outputs[7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_adder_Nbit/dut/outputs[7]" type="array">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_adder_Nbit/dut/outputs[6]" type="array">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_adder_Nbit/dut/outputs[5]" type="array">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_adder_Nbit/dut/outputs[4]" type="array">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_adder_Nbit/dut/outputs[3]" type="array">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_adder_Nbit/dut/outputs[2]" type="array">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_adder_Nbit/dut/outputs[1]" type="array">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_adder_Nbit/dut/outputs[0]" type="array">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_adder_Nbit/expected_sum" type="array">
+      <obj_property name="ElementShortName">expected_sum[8:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_sum[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adder_Nbit/expected_CO" type="logic">
+      <obj_property name="ElementShortName">expected_CO</obj_property>
+      <obj_property name="ObjectShortName">expected_CO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adder_Nbit/sumerrors" type="array">
+      <obj_property name="ElementShortName">sumerrors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sumerrors[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adder_Nbit/coerrors" type="array">
+      <obj_property name="ElementShortName">coerrors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">coerrors[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adder_Nbit/N" type="array">
+      <obj_property name="ElementShortName">N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N[31:0]</obj_property>
+   </wvobject>
+</wave_config>
